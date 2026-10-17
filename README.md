@@ -1,16 +1,42 @@
-## Hi there 👋
+# Adam Baig | SkynetAI - LABS
 
-<!--
-**SkynetAI-Labs/SkynetAI-Labs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Business Development & B2B Sales Leader | Enterprise Client Acquisition | Revenue Growth | SaaS | AI | Cybersecurity | Cloud**
 
-Here are some ideas to get you started:
+I bring a commercial perspective to technology through business development, enterprise client acquisition, and revenue growth.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+At **SkynetAI - LABS**, I build practical cybersecurity and DevSecOps projects to deepen my technical understanding of how systems are assessed, secured, tested, and delivered.
+
+This portfolio documents hands-on implementation, security findings, remediation, and verification.
+
+## GitHub DevSecOps Labs
+
+| Project | Focus |
+|---|---|
+| [Lab 1: Linux Security Assessment and Hardening](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-1-Linux-Security-Assessment-and-Hardening) | Ubuntu/WSL2 assessment with Lynis, password policies, firewall configuration, and remediation evidence |
+| [Lab 2: Automated Security Scanning with GitHub Actions](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-2-Automated-Security-Scanning-with-GitHub-Actions) | Python testing, Semgrep, Gitleaks, dependency auditing, Trivy, and container vulnerability remediation |
+| [Lab 3: Secure CI/CD Pipeline Engineering with GitHub Actions](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-3-Secure-CICD-Pipeline-Engineering-with-GitHub-Actions) | Protected pull requests, automated security checks, non-root containers, and gated delivery to GitHub Container Registry |
+
+## Practical Skills Demonstrated
+
+- Linux security assessment and hardening
+- Git, GitHub, and pull request workflows
+- Automated application testing and security scanning
+- Docker container security and vulnerability remediation
+- GitHub Actions pipeline engineering
+- Least-privilege workflow permissions and controlled image delivery
+- Technical documentation and evidence-based reporting
+
+## How I Approach the Work
+
+**Identify → Analyse → Remediate → Rescan → Verify → Document**
+
+Each lab explains its purpose, implementation, results, and limitations. Historical findings remain documented so visitors can follow the remediation process.
+
+## Connect
+
+- [LinkedIn](https://www.linkedin.com/in/adam-b-30126024)
+- [GitHub repositories](https://github.com/SkynetAI-Labs?tab=repositories)
+
+---
+
+**Commercial experience. Practical technical learning. Documented results.**
