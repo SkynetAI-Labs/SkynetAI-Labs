@@ -17,6 +17,7 @@ This portfolio documents hands-on implementation, security findings, remediation
 | [Lab 3: Secure CI/CD Pipeline Engineering with GitHub Actions](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-3-Secure-CICD-Pipeline-Engineering-with-GitHub-Actions) | Protected pull requests, automated security checks, non-root containers, and gated delivery to GitHub Container Registry |
 | [Lab 4: AWS Infrastructure as Code & Cloud Security](https://github.com/SkynetAI-Labs/lab-04-aws-terraform-cloud-security) | Terraform, AWS, Checkov security scanning, 41 passed security checks, and cloud security risk assessment |
 | [Lab 5: AWS IAM and CloudTrail Security](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-5-AWS-IAM-and-CloudTrail-Security) | Least-privilege IAM testing, verified CloudTrail log delivery, Terraform deployment and cleanup; Checkov: 55 passed, 8 findings documented |
+| [Lab 6: Kubernetes Security](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-6-Kubernetes-Security) | Local Kubernetes hardening, RBAC, enforced network policies and secret-file testing; Checkov improved to 279 passed with 4 documented findings; cleanup verified |
 
 ## Practical Skills Demonstrated
 
@@ -30,6 +31,11 @@ This portfolio documents hands-on implementation, security findings, remediation
 - AWS cloud infrastructure and security fundamentals
 - Terraform Infrastructure as Code (IaC) configuration and validation
 - Checkov infrastructure security scanning and risk assessment
+- Local Kubernetes deployment with kind and Calico
+- Kubernetes RBAC and restricted pod-security enforcement
+- Non-root containers, read-only filesystems and runtime security verification
+- Network-policy enforcement and file-based secret handling
+- Resource cleanup and independent verification
 
 ## How I Approach the Work
 
