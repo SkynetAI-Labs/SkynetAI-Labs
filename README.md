@@ -27,6 +27,9 @@ This portfolio documents hands-on implementation, security findings, remediation
 - GitHub Actions pipeline engineering
 - Least-privilege workflow permissions and controlled image delivery
 - Technical documentation and evidence-based reporting
+- AWS cloud infrastructure and security fundamentals
+- Terraform Infrastructure as Code (IaC) configuration and validation
+- Checkov infrastructure security scanning and risk assessment
 
 ## How I Approach the Work
 
