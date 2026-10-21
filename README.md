@@ -16,7 +16,7 @@ This portfolio documents hands-on implementation, security findings, remediation
 | [Lab 2: Automated Security Scanning with GitHub Actions](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-2-Automated-Security-Scanning-with-GitHub-Actions) | Python testing, Semgrep, Gitleaks, dependency auditing, Trivy, and container vulnerability remediation |
 | [Lab 3: Secure CI/CD Pipeline Engineering with GitHub Actions](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-3-Secure-CICD-Pipeline-Engineering-with-GitHub-Actions) | Protected pull requests, automated security checks, non-root containers, and gated delivery to GitHub Container Registry |
 | [Lab 4: AWS Infrastructure as Code & Cloud Security](https://github.com/SkynetAI-Labs/lab-04-aws-terraform-cloud-security) | Terraform, AWS, Checkov security scanning, 41 passed security checks, and cloud security risk assessment |
-
+| [Lab 5: AWS IAM and CloudTrail Security](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-5-AWS-IAM-and-CloudTrail-Security) | Least-privilege IAM testing, verified CloudTrail log delivery, Terraform deployment and cleanup; Checkov: 55 passed, 8 findings documented |
 
 ## Practical Skills Demonstrated
 
