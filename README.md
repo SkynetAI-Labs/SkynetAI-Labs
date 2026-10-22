@@ -18,6 +18,7 @@ This portfolio documents hands-on implementation, security findings, remediation
 | [Lab 4: AWS Infrastructure as Code & Cloud Security](https://github.com/SkynetAI-Labs/lab-04-aws-terraform-cloud-security) | Terraform, AWS, Checkov security scanning, 41 passed security checks, and cloud security risk assessment |
 | [Lab 5: AWS IAM and CloudTrail Security](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-5-AWS-IAM-and-CloudTrail-Security) | Least-privilege IAM testing, verified CloudTrail log delivery, Terraform deployment and cleanup; Checkov: 55 passed, 8 findings documented |
 | [Lab 6: Kubernetes Security](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-6-Kubernetes-Security) | Local Kubernetes hardening, RBAC, enforced network policies and secret-file testing; Checkov improved to 279 passed with 4 documented findings; cleanup verified |
+| [Lab 7: Security Monitoring and Incident Response](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-7-Security-Monitoring-and-Incident-Response) | AWS CloudTrail and CloudWatch detection, verified SNS/SQS alert delivery, incident investigation and cleanup; Checkov: 54 passed, 10 open findings documented |
 
 ## Practical Skills Demonstrated
 
@@ -35,6 +36,9 @@ This portfolio documents hands-on implementation, security findings, remediation
 - Kubernetes RBAC and restricted pod-security enforcement
 - Non-root containers, read-only filesystems and runtime security verification
 - Network-policy enforcement and file-based secret handling
+- AWS security monitoring with CloudTrail and CloudWatch
+- Verified alarm delivery through SNS and SQS
+- Security-event correlation and incident investigation
 - Resource cleanup and independent verification
 
 ## How I Approach the Work
