@@ -8,7 +8,7 @@ At **SkynetAI - LABS**, I build practical cybersecurity, DevSecOps and fintech e
 
 This portfolio documents hands-on implementation, security findings, remediation, automated testing and verification.
 
-## GitHub DevSecOps Labs
+## GitHub DevSecOps & Fintech Labs
 
 | Project | Focus |
 |---|---|
@@ -19,20 +19,28 @@ This portfolio documents hands-on implementation, security findings, remediation
 | [Lab 5: AWS IAM and CloudTrail Security](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-5-AWS-IAM-and-CloudTrail-Security) | Least-privilege IAM testing, verified CloudTrail log delivery, Terraform deployment and cleanup; Checkov: 55 passed, 8 findings documented |
 | [Lab 6: Kubernetes Security](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-6-Kubernetes-Security) | Local Kubernetes hardening, RBAC, enforced network policies and secret-file testing; Checkov improved to 279 passed with 4 documented findings; cleanup verified |
 | [Lab 7: Security Monitoring and Incident Response](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-7-Security-Monitoring-and-Incident-Response) | AWS CloudTrail and CloudWatch detection, verified SNS/SQS alert delivery, incident investigation and cleanup; Checkov: 54 passed, 10 open findings documented |
-| [Lab 8: Revolut Business Fintech API Development](https://github.com/SkynetAI-Labs/Revolut-business-fintech-security-gtm) | Python, FastAPI, SQLite, fictional business banking accounts, atomic payment transfers, financial integrity validation, transaction history and 11 passing automated tests |
+| [Lab 8: Revolut Business Fintech API Development](https://github.com/SkynetAI-Labs/Revolut-business-fintech-security-gtm#lab-1--business-banking-api) | Python, FastAPI, SQLite, fictional business banking accounts, atomic payment transfers, financial integrity validation and transaction history; initial API and payment suite: 11 passing tests |
+| [Lab 9: Revolut Business Authentication and API Security](https://github.com/SkynetAI-Labs/Revolut-business-fintech-security-gtm#lab-2--authentication-and-api-security) | JWT authentication, Argon2id password hashing, administrator role checks, tenant isolation, rate limiting and security headers; expanded project suite: 38 passing tests, with Bandit, dependency auditing and secret scanning |
+
+Labs 8 and 9 document successive phases of the same Revolut-inspired portfolio repository. The 38-test result is the combined project suite after the authentication and API security work.
 
 ## Practical Skills Demonstrated
 
 ### Cybersecurity & DevSecOps
+
 - Linux security assessment and hardening
 - Git, GitHub, and pull request workflows
 - Automated application testing and security scanning
 - Docker container security and vulnerability remediation
 - GitHub Actions pipeline engineering
 - Least-privilege workflow permissions and controlled image delivery
+- Static application analysis with Bandit
+- Dependency vulnerability auditing with pip-audit
+- Secret detection with Gitleaks
 - Technical documentation and evidence-based reporting
 
 ### AWS & Cloud Infrastructure
+
 - AWS cloud infrastructure and security fundamentals
 - Terraform Infrastructure as Code (IaC) configuration and validation
 - Checkov infrastructure security scanning and risk assessment
@@ -42,20 +50,28 @@ This portfolio documents hands-on implementation, security findings, remediation
 - Resource cleanup and independent verification
 
 ### Kubernetes & Container Security
+
 - Local Kubernetes deployment with kind and Calico
 - Kubernetes RBAC and restricted pod-security enforcement
 - Non-root containers, read-only filesystems and runtime security verification
 - Network-policy enforcement and file-based secret handling
 
-### Fintech API Engineering
+### Fintech API Engineering & Security
+
 - Python and FastAPI application development
 - SQLite relational database design
 - REST API endpoints and OpenAPI documentation
 - Simulated business banking accounts and transactions
 - Atomic financial transfers and database rollback
 - Payment validation and transaction integrity controls
-- Automated testing with Pytest
+- JWT access-token creation, signature validation and expiry enforcement
+- Argon2id password hashing and credential verification
+- Role-based access control and administrator route protection
+- Customer-level tenant isolation
+- IP-based rate limiting and HTTP security headers
+- Automated testing with pytest
 - Isolated test databases and financial balance verification
+- API tests rejecting missing-expiry, expired and tampered tokens
 - GitHub project documentation and version control
 
 ## How I Approach the Work
@@ -74,13 +90,17 @@ The objective is to demonstrate practical implementation, measurable results and
 
 **Revolut Business — Fintech Security & GTM Portfolio**
 
-- **Lab 1:** Business Banking API Development — Completed
-- **Lab 2:** Authentication and API Security — Planned
-- **Lab 3:** Docker, GitHub Actions and DevSecOps — Planned
-- **Lab 4:** Fraud Detection and Transaction Monitoring — Planned
-- **Lab 5:** Revolut Business Market Intelligence and GTM Strategy — Planned
+| Revolut project lab | Focus | Status |
+|---|---|---|
+| 1 | Business Banking API Development | Completed — portfolio Lab 8 |
+| 2 | Authentication and API Security | Completed — portfolio Lab 9 |
+| 3 | Docker, GitHub Actions and DevSecOps | Planned |
+| 4 | Fraud Detection and Transaction Monitoring | Planned |
+| 5 | Revolut Business Market Intelligence and GTM Strategy | Planned |
 
-This is an independent educational portfolio project, not affiliated with or endorsed by Revolut. All banking customers, accounts and transactions are fictional.
+Latest verified Revolut project result: **38 tests passed**, with **7 dependency deprecation warnings**, on **22 October 2026**.
+
+The Revolut project is an independent educational simulation, not affiliated with or endorsed by Revolut. All banking customers, accounts and transactions are fictional. It does not demonstrate access to Revolut's production systems, and passing tests and security scans do not establish production readiness.
 
 ## Connect
 
