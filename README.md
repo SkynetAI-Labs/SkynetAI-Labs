@@ -22,8 +22,9 @@ This portfolio documents hands-on implementation, security findings, remediation
 | [Lab 8: Revolut Business Fintech API Development](https://github.com/SkynetAI-Labs/Revolut-business-fintech-security-gtm#lab-1--business-banking-api) | Python, FastAPI, SQLite, fictional business banking accounts, atomic payment transfers, financial integrity validation and transaction history; initial API and payment suite: 11 passing tests |
 | [Lab 9: Revolut Business Authentication and API Security](https://github.com/SkynetAI-Labs/Revolut-business-fintech-security-gtm#lab-2--authentication-and-api-security) | JWT authentication, Argon2id password hashing, administrator role checks, tenant isolation, rate limiting and security headers; expanded project suite: 38 passing tests, with Bandit, dependency auditing and secret scanning |
 | [Lab 10: Revolut Business Docker, GitHub Actions and DevSecOps](https://github.com/SkynetAI-Labs/Revolut-business-fintech-security-gtm#lab-3--docker-github-actions-and-devsecops) | Digest-pinned Python 3.14.9 Alpine image, non-root execution, reproducible test configuration, 38 passing tests and a passing GitHub pipeline with Bandit, pip-audit, Gitleaks and Trivy; completed candidate scan reported zero HIGH/CRITICAL vulnerabilities |
+| [Lab 11: Revolut Business Fraud Detection and Transaction Monitoring](https://github.com/SkynetAI-Labs/Revolut-business-fintech-security-gtm#lab-4--fraud-detection-and-transaction-monitoring) | Four explainable monitoring rules, customer-isolated alerts, administrator review, duplicate-safe historical analysis and atomic payment integration; expanded combined suite: 200 passing tests, with a passing GitHub security pipeline |
 
-Labs 8–10 document successive phases of the same Revolut-inspired portfolio repository. The 38-test result is the combined project suite, expanded during Lab 9 and verified again during Lab 10.
+Labs 8–11 document successive phases of the same Revolut-inspired portfolio repository. The combined suite expanded from the initial 11-test API milestone to 38 tests during Lab 9, was verified again during Lab 10, and expanded to 200 tests during Lab 11.
 
 ## Practical Skills Demonstrated
 
@@ -83,6 +84,19 @@ Labs 8–10 document successive phases of the same Revolut-inspired portfolio re
 - Container health, authentication-rejection and non-root execution checks
 - GitHub project documentation and version control
 
+### Transaction Monitoring & Alert Review
+
+- Explainable rules for large transfers, transfer frequency, cumulative outgoing value and repeated transfers
+- Configurable thresholds and structured detection evidence
+- UTC time-window boundaries and transaction ordering
+- Persistent alerts with customer ownership and duplicate prevention
+- Atomic payment and alert storage with rollback on monitoring failure
+- Bounded, resumable historical-analysis batches
+- Customer-scoped alert retrieval with validated filters and pagination
+- Administrator-only review decisions with recorded reviewer and timestamps
+- Protection against overwriting final decisions or modifying detection evidence
+- Tests covering threshold boundaries, replay safety, access controls and financial integrity
+
 ## How I Approach the Work
 
 **Identify → Analyse → Remediate → Rescan → Verify → Document**
@@ -103,20 +117,24 @@ The objective is to demonstrate practical implementation, measurable results and
 |---|---|---|
 | 1 | Business Banking API Development | Completed — portfolio Lab 8 |
 | 2 | Authentication and API Security | Completed — portfolio Lab 9 |
-| 3 | Docker, GitHub Actions and DevSecOps | Implemented and verified — portfolio Lab 10; documentation closeout in progress |
-| 4 | Fraud Detection and Transaction Monitoring | Planned |
+| 3 | Docker, GitHub Actions and DevSecOps | Completed — portfolio Lab 10 |
+| 4 | Fraud Detection and Transaction Monitoring | Completed — portfolio Lab 11 |
 | 5 | Revolut Business Market Intelligence and GTM Strategy | Planned |
 
-Latest verified Revolut project results on **22 October 2026**:
+Latest verified Revolut project evidence, confirmed through **23 October 2026**:
 
-- **38 tests passed**, with **7 dependency deprecation warnings**, including Alpine compatibility testing.
-- GitHub Actions passed for remediation commit **`d2ff68f`**.
-- The completed Alpine application image scan reported **zero HIGH/CRITICAL vulnerabilities** at scan time.
-- Container health, unauthenticated route rejection, security headers and UID/GID 10001 were verified.
+- **200 tests passed**, with **10 dependency deprecation warnings** in the latest local full-suite run.
+- GitHub Actions passed for Lab 4 implementation commit **`72d40c3`** and completion-documentation commit **`aee8d56`**.
+- Bandit reported no issues, dependency auditing reported no known vulnerabilities, and application/test secret scans reported no leaks.
+- The completed Lab 4 application image scan reported **zero HIGH/CRITICAL vulnerabilities** at scan time.
+- Customer-isolated alert access, administrator review, duplicate prevention and payment rollback were verified through automated tests.
+- The repository working tree was clean and synchronized after publication.
 
-The initial container scan failed. Remediation replaced the Debian base with a verified Alpine image and removed pip and ensurepip after dependency installation. The HIGH/CRITICAL failure threshold remained unchanged, with no explicit vulnerability exceptions added.
+Earlier container remediation replaced the Debian base with a verified Alpine image and removed pip and ensurepip after dependency installation. The HIGH/CRITICAL failure threshold remained unchanged, with no explicit vulnerability exceptions added.
 
-Direct dependencies are pinned; a complete transitive dependency lockfile remains outstanding. Dependency warnings and database setup and persistence limitations are documented in the repository.
+Monitoring alerts identify rule matches for review, not confirmed fraud. Thresholds are educational demonstration settings. The project does not implement machine learning, automatic account blocking or external banking integration.
+
+Direct dependencies are pinned; a complete transitive dependency lockfile remains outstanding. Dependency warnings, historical-data assumptions, monitoring performance and database setup and persistence limitations are documented in the repository. Scan results are point-in-time evidence.
 
 The Revolut project is an independent educational simulation, not affiliated with or endorsed by Revolut. All banking customers, accounts and transactions are fictional. It does not demonstrate access to Revolut's production systems, and passing tests and security scans do not establish production readiness.
 
