@@ -21,8 +21,9 @@ This portfolio documents hands-on implementation, security findings, remediation
 | [Lab 7: Security Monitoring and Incident Response](https://github.com/SkynetAI-Labs/GitHub-DevSecOps-Lab-7-Security-Monitoring-and-Incident-Response) | AWS CloudTrail and CloudWatch detection, verified SNS/SQS alert delivery, incident investigation and cleanup; Checkov: 54 passed, 10 open findings documented |
 | [Lab 8: Revolut Business Fintech API Development](https://github.com/SkynetAI-Labs/Revolut-business-fintech-security-gtm#lab-1--business-banking-api) | Python, FastAPI, SQLite, fictional business banking accounts, atomic payment transfers, financial integrity validation and transaction history; initial API and payment suite: 11 passing tests |
 | [Lab 9: Revolut Business Authentication and API Security](https://github.com/SkynetAI-Labs/Revolut-business-fintech-security-gtm#lab-2--authentication-and-api-security) | JWT authentication, Argon2id password hashing, administrator role checks, tenant isolation, rate limiting and security headers; expanded project suite: 38 passing tests, with Bandit, dependency auditing and secret scanning |
+| [Lab 10: Revolut Business Docker, GitHub Actions and DevSecOps](https://github.com/SkynetAI-Labs/Revolut-business-fintech-security-gtm#lab-3--docker-github-actions-and-devsecops) | Digest-pinned Python 3.14.9 Alpine image, non-root execution, reproducible test configuration, 38 passing tests and a passing GitHub pipeline with Bandit, pip-audit, Gitleaks and Trivy; completed candidate scan reported zero HIGH/CRITICAL vulnerabilities |
 
-Labs 8 and 9 document successive phases of the same Revolut-inspired portfolio repository. The 38-test result is the combined project suite after the authentication and API security work.
+Labs 8–10 document successive phases of the same Revolut-inspired portfolio repository. The 38-test result is the combined project suite, expanded during Lab 9 and verified again during Lab 10.
 
 ## Practical Skills Demonstrated
 
@@ -37,6 +38,8 @@ Labs 8 and 9 document successive phases of the same Revolut-inspired portfolio r
 - Static application analysis with Bandit
 - Dependency vulnerability auditing with pip-audit
 - Secret detection with Gitleaks
+- Container vulnerability scanning with Trivy
+- Security failure thresholds and remediation verification
 - Technical documentation and evidence-based reporting
 
 ### AWS & Cloud Infrastructure
@@ -55,6 +58,9 @@ Labs 8 and 9 document successive phases of the same Revolut-inspired portfolio r
 - Kubernetes RBAC and restricted pod-security enforcement
 - Non-root containers, read-only filesystems and runtime security verification
 - Network-policy enforcement and file-based secret handling
+- Digest-pinned container base images
+- Build-context exclusions for secrets, databases and development files
+- Alpine compatibility testing and removal of unnecessary runtime installation tools
 
 ### Fintech API Engineering & Security
 
@@ -72,6 +78,9 @@ Labs 8 and 9 document successive phases of the same Revolut-inspired portfolio r
 - Automated testing with pytest
 - Isolated test databases and financial balance verification
 - API tests rejecting missing-expiry, expired and tampered tokens
+- Separate runtime and development dependency manifests
+- Fresh-environment testing without the local banking database or `.env`
+- Container health, authentication-rejection and non-root execution checks
 - GitHub project documentation and version control
 
 ## How I Approach the Work
@@ -94,11 +103,20 @@ The objective is to demonstrate practical implementation, measurable results and
 |---|---|---|
 | 1 | Business Banking API Development | Completed — portfolio Lab 8 |
 | 2 | Authentication and API Security | Completed — portfolio Lab 9 |
-| 3 | Docker, GitHub Actions and DevSecOps | Planned |
+| 3 | Docker, GitHub Actions and DevSecOps | Implemented and verified — portfolio Lab 10; documentation closeout in progress |
 | 4 | Fraud Detection and Transaction Monitoring | Planned |
 | 5 | Revolut Business Market Intelligence and GTM Strategy | Planned |
 
-Latest verified Revolut project result: **38 tests passed**, with **7 dependency deprecation warnings**, on **22 October 2026**.
+Latest verified Revolut project results on **22 October 2026**:
+
+- **38 tests passed**, with **7 dependency deprecation warnings**, including Alpine compatibility testing.
+- GitHub Actions passed for remediation commit **`d2ff68f`**.
+- The completed Alpine application image scan reported **zero HIGH/CRITICAL vulnerabilities** at scan time.
+- Container health, unauthenticated route rejection, security headers and UID/GID 10001 were verified.
+
+The initial container scan failed. Remediation replaced the Debian base with a verified Alpine image and removed pip and ensurepip after dependency installation. The HIGH/CRITICAL failure threshold remained unchanged, with no explicit vulnerability exceptions added.
+
+Direct dependencies are pinned; a complete transitive dependency lockfile remains outstanding. Dependency warnings and database setup and persistence limitations are documented in the repository.
 
 The Revolut project is an independent educational simulation, not affiliated with or endorsed by Revolut. All banking customers, accounts and transactions are fictional. It does not demonstrate access to Revolut's production systems, and passing tests and security scans do not establish production readiness.
 
