@@ -2,11 +2,21 @@
 
 # Adam Baig | SkynetAI-Labs
 
-**Business Development & B2B Sales Leader | Enterprise Client Acquisition | SaaS, AI & Fintech**
+**Recruitment & Business Development | International Technical Hiring | SaaS, AI & Fintech**
 
-I bring a commercial perspective to technology through business development, enterprise client acquisition and revenue growth. At **SkynetAI-Labs**, I build practical cybersecurity, cloud and fintech projects to develop my technical understanding of the products and systems behind those conversations.
+I combine a background in full-cycle recruitment, executive search, business development and international client management with hands-on technical learning. At **SkynetAI-Labs**, I build practical cybersecurity, cloud and fintech projects to deepen my understanding of the systems, products and technical roles involved.
 
 This portfolio combines hands-on implementation with security assessment, evidence-led reporting and commercial research. The projects are educational; they do not represent production banking systems or verified customer outcomes.
+
+## Recruitment and Commercial Experience
+
+My recruitment work spans oil and gas, power, nuclear, renewables, mining and construction, including specialist technical field services and international assignments.
+
+- **Ascent Energy Global — Director, Recruitment & Business Development (2013–2021):** client acquisition and account management, role scoping, sourcing and screening, interview coordination, rate and contract negotiation, onboarding and international mobilisation.
+- **Voyage Energy Group — Vice President & Co-Founder (2012–2013):** built client relationships and delivered specialist field-engineer recruitment through to international deployment.
+- **Earlier recruitment roles:** executive search and specialist hiring at Competentia AS (2011–2012), international energy recruitment at Opus Sterling (2010–2011), and full-cycle construction and energy recruitment at Quest Executive (2002–2010).
+
+This experience connects hiring-manager requirements, candidate assessment and commercial delivery. My technology portfolio adds practical learning alongside that established recruitment background.
 
 ## Start Here
 
