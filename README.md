@@ -1,193 +1,65 @@
 ![SkynetAI-Labs Banner](skynet-master.png)
 
-# Adam Baig | SkynetAI - LABS
+# Adam Baig | SkynetAI-Labs
 
-**Business Development & B2B Sales Leader | Enterprise Client Acquisition | Revenue Growth | SaaS | AI | Cybersecurity | Cloud**
+**Business Development & B2B Sales Leader | Enterprise Client Acquisition | SaaS, AI & Fintech**
 
-I bring a commercial perspective to technology through business development, enterprise client acquisition, and revenue growth.
+I bring a commercial perspective to technology through business development, enterprise client acquisition and revenue growth. At **SkynetAI-Labs**, I build practical cybersecurity, cloud and fintech projects to develop my technical understanding of the products and systems behind those conversations.
 
-At **SkynetAI - LABS**, I build practical cybersecurity, DevSecOps and fintech engineering projects to deepen my technical understanding of how systems are developed, assessed, secured, tested, and delivered.
+This portfolio combines hands-on implementation with security assessment, evidence-led reporting and commercial research. The projects are educational; they do not represent production banking systems or verified customer outcomes.
 
-This portfolio documents hands-on implementation, security findings, remediation, automated testing, verification and commercial strategy research.
+## Start Here
 
-## GitHub DevSecOps & Fintech Labs
-
-| Project | Focus |
-|---|---|
-| [Lab 1: Linux Security Assessment and Hardening](https://github.com/SkynetAI-Labs/lab-01-linux-security-hardening) | Ubuntu/WSL2 assessment with Lynis, password policies, firewall configuration, and remediation evidence |
-| [Lab 2: Automated Security Scanning with GitHub Actions](https://github.com/SkynetAI-Labs/lab-02-automated-security-scanning) | Python testing, Semgrep, Gitleaks, dependency auditing, Trivy, and container vulnerability remediation |
-| [Lab 3: Secure CI/CD Pipeline Engineering with GitHub Actions](https://github.com/SkynetAI-Labs/lab-03-secure-cicd-pipeline) | Protected pull requests, automated security checks, non-root containers, and gated delivery to GitHub Container Registry |
-| [Lab 4: AWS Infrastructure as Code & Cloud Security](https://github.com/SkynetAI-Labs/lab-04-aws-terraform-cloud-security) | Terraform, AWS, Checkov security scanning, 41 passed security checks, and cloud security risk assessment |
-| [Lab 5: AWS IAM and CloudTrail Security](https://github.com/SkynetAI-Labs/lab-05-aws-iam-cloudtrail-security) | Least-privilege IAM testing, verified CloudTrail log delivery, Terraform deployment and cleanup; Checkov: 55 passed, 8 findings documented |
-| [Lab 6: Kubernetes Security](https://github.com/SkynetAI-Labs/lab-06-kubernetes-security) | Local Kubernetes hardening, RBAC, enforced network policies and secret-file testing; Checkov improved to 279 passed with 4 documented findings; cleanup verified |
-| [Lab 7: Security Monitoring and Incident Response](https://github.com/SkynetAI-Labs/lab-07-security-monitoring-response) | AWS CloudTrail and CloudWatch detection, verified SNS/SQS alert delivery, incident investigation and cleanup; Checkov: 54 passed, 10 open findings documented |
-| [Lab 8: Revolut Business Fintech API Development](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study#lab-1--business-banking-api) | Python, FastAPI, SQLite, fictional business banking accounts, atomic payment transfers, financial integrity validation and transaction history; initial API and payment suite: 11 passing tests |
-| [Lab 9: Revolut Business Authentication and API Security](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study#lab-2--authentication-and-api-security) | JWT authentication, Argon2id password hashing, administrator role checks, tenant isolation, rate limiting and security headers; expanded project suite: 38 passing tests, with Bandit, dependency auditing and secret scanning |
-| [Lab 10: Revolut Business Docker, GitHub Actions and DevSecOps](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study#lab-3--docker-github-actions-and-devsecops) | Digest-pinned Python 3.14.9 Alpine image, non-root execution, reproducible test configuration, 38 passing tests and a passing GitHub pipeline with Bandit, pip-audit, Gitleaks and Trivy; completed candidate scan reported zero HIGH/CRITICAL vulnerabilities |
-| [Lab 11: Revolut Business Fraud Detection and Transaction Monitoring](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study#lab-4--fraud-detection-and-transaction-monitoring) | Four explainable monitoring rules, customer-isolated alerts, administrator review, duplicate-safe historical analysis and atomic payment integration; expanded combined suite: 200 passing tests, with a passing GitHub security pipeline |
-| [Lab 12: Revolut Business Market Intelligence and GTM Strategy](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study/tree/main/docs/gtm) | UK SME research, 25-source evidence register, competitor comparison, provisional agency targeting, positioning and hypothetical 90-day acquisition economics; assumptions, sensitivity and evidence gaps documented |
-
-Labs 8–12 document successive phases of the same Revolut-inspired portfolio repository. The combined application suite expanded from the initial 11-test API milestone to 38 tests during Lab 9, was verified again during Lab 10, and expanded to 200 tests during Lab 11.
-
-Lab 12 adds independent commercial research and a hypothetical GTM strategy. It does not add application tests or demonstrate customer demand.
-
-## Practical Skills Demonstrated
-
-### Cybersecurity & DevSecOps
-
-- Linux security assessment and hardening
-- Git, GitHub, and pull request workflows
-- Automated application testing and security scanning
-- Docker container security and vulnerability remediation
-- GitHub Actions pipeline engineering
-- Least-privilege workflow permissions and controlled image delivery
-- Static application analysis with Bandit
-- Dependency vulnerability auditing with pip-audit
-- Secret detection with Gitleaks
-- Container vulnerability scanning with Trivy
-- Security failure thresholds and remediation verification
-- Technical documentation and evidence-based reporting
-
-### AWS & Cloud Infrastructure
-
-- AWS cloud infrastructure and security fundamentals
-- Terraform Infrastructure as Code configuration and validation
-- Checkov infrastructure security scanning and risk assessment
-- AWS security monitoring with CloudTrail and CloudWatch
-- Verified alarm delivery through SNS and SQS
-- Security-event correlation and incident investigation
-- Resource cleanup and independent verification
-
-### Kubernetes & Container Security
-
-- Local Kubernetes deployment with kind and Calico
-- Kubernetes RBAC and restricted pod-security enforcement
-- Non-root containers, read-only filesystems and runtime security verification
-- Network-policy enforcement and file-based secret handling
-- Digest-pinned container base images
-- Build-context exclusions for secrets, databases and development files
-- Alpine compatibility testing and removal of unnecessary runtime installation tools
-
-### Fintech API Engineering & Security
-
-- Python and FastAPI application development
-- SQLite relational database design
-- REST API endpoints and OpenAPI documentation
-- Simulated business banking accounts and transactions
-- Atomic financial transfers and database rollback
-- Payment validation and transaction integrity controls
-- JWT access-token creation, signature validation and expiry enforcement
-- Argon2id password hashing and credential verification
-- Role-based access control and administrator route protection
-- Customer-level tenant isolation
-- IP-based rate limiting and HTTP security headers
-- Automated testing with pytest
-- Isolated test databases and financial balance verification
-- API tests rejecting missing-expiry, expired and tampered tokens
-- Separate runtime and development dependency manifests
-- Fresh-environment testing without the local banking database or `.env`
-- Container health, authentication-rejection and non-root execution checks
-- GitHub project documentation and version control
-
-### Transaction Monitoring & Alert Review
-
-- Explainable rules for large transfers, transfer frequency, cumulative outgoing value and repeated transfers
-- Configurable thresholds and structured detection evidence
-- UTC time-window boundaries and transaction ordering
-- Persistent alerts with customer ownership and duplicate prevention
-- Atomic payment and alert storage with rollback on monitoring failure
-- Bounded, resumable historical-analysis batches
-- Customer-scoped alert retrieval with validated filters and pagination
-- Administrator-only review decisions with recorded reviewer and timestamps
-- Protection against overwriting final decisions or modifying detection evidence
-- Tests covering threshold boundaries, replay safety, access controls and financial integrity
-
-### Market Intelligence & GTM Strategy
-
-- UK SME market research with dated sources and explicit limitations
-- Competitor feature, pricing and onboarding comparisons
-- Separation of verified facts, analysis and planning assumptions
-- Provisional customer segmentation and weighted scoring
-- Sensitivity analysis and ideal customer profile development
-- Buyer qualification, positioning and draft messaging
-- Hypothetical acquisition channels and customer journey
-- Resource budgets, funnel modelling and acquisition-cost calculations
-- Distinction between gross billings, contribution and portfolio income
-- Proposed 90-day execution gates and risk management
-
-## How I Approach the Work
-
-**Identify → Analyse → Remediate → Rescan → Verify → Document**
-
-Each lab explains its purpose, implementation, results, and limitations. Historical findings remain documented so visitors can follow the remediation process.
-
-For software engineering projects, I apply a complementary approach:
-
-**Design → Build → Test → Validate → Document → Improve**
-
-For commercial research:
-
-**Define → Research → Compare → Model → Challenge Assumptions → Document**
-
-The objective is to demonstrate practical implementation, measurable results and an understanding of both technical requirements and commercial applications.
-
-## Revolut Business — Completed Portfolio Roadmap
-
-| Revolut project lab | Focus | Status |
+| Project | What it demonstrates | Evidence |
 |---|---|---|
-| 1 | Business Banking API Development | Completed — portfolio Lab 8 |
-| 2 | Authentication and API Security | Completed — portfolio Lab 9 |
-| 3 | Docker, GitHub Actions and DevSecOps | Completed — portfolio Lab 10 |
-| 4 | Fraud Detection and Transaction Monitoring | Completed — portfolio Lab 11 |
-| 5 | Revolut Business Market Intelligence and GTM Strategy | Completed — portfolio Lab 12 |
+| [Revolut Business fintech case study — Labs 08–12](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study) | A fictional banking API, JWT/RBAC and customer isolation, Docker/CI, explainable transaction monitoring and UK SME GTM research | [231-test main-branch verification](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study/actions/runs/40136670923) · [Phase-by-phase audit](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study/blob/main/AUDIT_LABS_08_12.md) |
+| [Secure CI/CD pipeline — Lab 03](https://github.com/SkynetAI-Labs/lab-03-secure-cicd-pipeline) | Tests and security gates, publishing the scanned image, digest/action pins, SBOM and signed provenance | [Verified main workflow](https://github.com/SkynetAI-Labs/lab-03-secure-cicd-pipeline/actions/runs/40134729959) · [Audit](https://github.com/SkynetAI-Labs/lab-03-secure-cicd-pipeline/blob/main/SECURITY_AUDIT.md) |
+| [Security monitoring and incident response — Lab 07](https://github.com/SkynetAI-Labs/lab-07-security-monitoring-response) | Historical regional AWS detection, request correlation and SNS-to-SQS alert delivery, followed by teardown | [Incident report](https://github.com/SkynetAI-Labs/lab-07-security-monitoring-response/blob/main/docs/incident-report.md) · [Open findings](https://github.com/SkynetAI-Labs/lab-07-security-monitoring-response/blob/main/SECURITY_AUDIT.md) |
 
-### Technical Evidence
+## Verification Snapshot — 24 October 2026
 
-Latest documented technical evidence through **23 October 2026**:
+- **Fintech case study:** 231 tests passed, with 10 dependency deprecation warnings. Bandit, pip-audit, Gitleaks, Docker build and the configured Trivy HIGH/CRITICAL gate passed. Two payment-input/balance-integrity defects were fixed with 31 added regression cases.
+- **Labs 02 and 03:** the reviewed automated workflows passed.
+- **Lab 04:** retained historical Checkov evidence records 41 passed and 4 failed. The repository audit also identified missing explicit HTTPS-only bucket enforcement; no fresh deployment or scan is claimed.
+- **Lab 05:** Terraform formatting, initialization and validation passed; Checkov reported **113 passed, 12 failed**. Newly added delivery paths still require live verification.
+- **Lab 06:** YAML parsing passed; Checkov reported **279 passed, 4 failed**. Network-policy and authenticated-RBAC evidence limitations are documented.
+- **Lab 07:** Terraform validation passed; Checkov reported **54 passed, 10 failed**. Regional coverage and short retention are documented lab limitations.
 
-- **200 tests passed**, with **10 dependency deprecation warnings** in the latest local full-suite run.
-- GitHub Actions passed for Lab 4 implementation commit **`72d40c3`** and completion-documentation commit **`aee8d56`**.
-- Bandit reported no issues, dependency auditing reported no known vulnerabilities, and application/test secret scans reported no leaks.
-- The completed Lab 4 application image scan reported **zero HIGH/CRITICAL vulnerabilities** at scan time.
-- Customer-isolated alert access, administrator review, duplicate prevention and payment rollback were verified through automated tests.
-- The repository working tree was clean and synchronized at the verified Lab 4 closeout.
+Security findings remain visible. Passing checks describe the configured tests at their run date; they do not establish production readiness. Each repository links its dated audit and recommendations.
 
-Earlier container remediation replaced the Debian base with a verified Alpine image and removed pip and ensurepip after dependency installation. The HIGH/CRITICAL failure threshold remained unchanged, with no explicit vulnerability exceptions added.
+## All 12 Portfolio Labs
 
-Monitoring alerts identify rule matches for review, not confirmed fraud. Thresholds are educational demonstration settings. The project does not implement machine learning, automatic account blocking or external banking integration.
+| Lab | Focus |
+|---|---|
+| [01 — Linux security](https://github.com/SkynetAI-Labs/lab-01-linux-security-hardening) | Historical Lynis assessment, package updates, password policy and firewall evidence |
+| [02 — Automated security scanning](https://github.com/SkynetAI-Labs/lab-02-automated-security-scanning) | pytest, Semgrep, Gitleaks, pip-audit and Trivy |
+| [03 — Secure CI/CD](https://github.com/SkynetAI-Labs/lab-03-secure-cicd-pipeline) | Security gates, container delivery and supply-chain evidence |
+| [04 — Terraform and S3 security](https://github.com/SkynetAI-Labs/lab-04-aws-terraform-cloud-security) | Storage controls, logging, event configuration and risk assessment |
+| [05 — IAM and CloudTrail](https://github.com/SkynetAI-Labs/lab-05-aws-iam-cloudtrail-security) | Restricted IAM, audit logging and Terraform validation |
+| [06 — Kubernetes security](https://github.com/SkynetAI-Labs/lab-06-kubernetes-security) | Pod hardening, RBAC, selected-pod network policies and secret-file checks |
+| [07 — Monitoring and response](https://github.com/SkynetAI-Labs/lab-07-security-monitoring-response) | AWS detection, alert delivery and incident investigation |
+| [08 — Revolut Business API](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study#lab-1--business-banking-api) | FastAPI, SQLite, internal transfers and financial integrity |
+| [09 — Revolut authentication and API security](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study#lab-2--authentication-and-api-security) | JWT, Argon2id, RBAC, customer isolation and rate limits |
+| [10 — Revolut Docker and DevSecOps](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study#lab-3--docker-github-actions-and-devsecops) | Container hardening, dependency checks and automated scanning |
+| [11 — Revolut transaction monitoring](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study#lab-4--fraud-detection-and-transaction-monitoring) | Four explainable rules, isolated alerts, administrator review and atomic integration |
+| [12 — Revolut market intelligence and GTM](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study/tree/main/docs/gtm) | UK SME research, competitor comparison, provisional targeting and hypothetical acquisition economics |
 
-Direct dependencies are pinned; a complete transitive dependency lockfile remains outstanding. Dependency warnings, historical-data assumptions, monitoring performance and database setup and persistence limitations are documented in the repository. Scan results are point-in-time evidence.
+**Labs 08–12 are successive phases of one repository and share one combined application test suite.** The 231-test total is not a separate result for each phase.
 
-### Commercial Research Evidence
+## Commercial Research and Technical Skills
 
-Lab 5 was published in commit **`9ab86f9`**, with a passing GitHub workflow confirmed on **23 October 2026**.
+The GTM case study includes a 25-source register, competitor analysis, assumption-based segment scoring and a hypothetical 90-day pilot. Its base model assumes 75 hours and GBP150 cash, or GBP2,400 economic cost at an assumed GBP30 hourly value. Two expected activations are a model output, not customers acquired. Complete cross-border quotes and customer validation remain open.
 
-- The research register contains **25 sources**, with access dates and limitations.
-- Structural checks covered **33 GTM files**, document links and headline arithmetic.
-- Competitor research covers **Wise Business, Starling Business and HSBC Small Business Banking**.
-- Agencies were selected provisionally through assumption-based scoring; sensitivity analysis removes their lead under changed assumptions.
-- The hypothetical base model assumes **75 hours**, **GBP150 direct cash** and **two expected activations**.
-- At an assumed **GBP30 hourly value**, total modelled economic cost is **GBP2,400**.
-- These figures are planning assumptions and model outputs, not measured campaign results.
-- No interviews, outreach, campaigns, provider partnerships or acquired customers are claimed.
-- Complete cross-border quotes and customer validation remain unresolved.
-- Technical pipeline success does not validate commercial assumptions or establish profitability.
+Technical work covers Python/FastAPI/SQLite, JWT and Argon2id, Docker, GitHub Actions, security scanning, AWS/Terraform, Kubernetes RBAC/network policies and evidence-based incident investigation. Detailed implementations, historical milestones and limitations are kept in the project repositories.
 
-[Read the complete market intelligence and GTM case study](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study/tree/main/docs/gtm).
+**Engineering:** Design → Build → Test → Validate → Document → Improve  
+**Security:** Identify → Analyse → Remediate → Rescan → Verify → Document  
+**Commercial research:** Define → Research → Compare → Model → Challenge Assumptions → Document
 
-### Independence and Limitations
+## Independence and Contact
 
-The Revolut project is an independent educational simulation and commercial case study, not affiliated with or endorsed by Revolut.
+The Revolut work is an independent educational simulation and case study, not affiliated with or endorsed by Revolut. All banking customers, accounts and transactions are fictional. No interviews, outreach campaigns, provider partnerships or acquired customers are claimed.
 
-All banking customers, accounts and transactions in the technical simulation are fictional. The project does not demonstrate access to Revolut's production systems.
-
-Passing tests and security scans do not establish production readiness. Desk research and hypothetical commercial models do not establish customer demand, guaranteed savings or commercial viability.
-
-## Connect
-
-- [LinkedIn](https://www.linkedin.com/in/adam-b-30126024)
-- [GitHub repositories](https://github.com/SkynetAI-Labs?tab=repositories)
-
----
+[LinkedIn](https://www.linkedin.com/in/adam-b-30126024) · [GitHub projects](https://github.com/SkynetAI-Labs?tab=repositories)
 
 **Commercial experience. Practical technical learning. Documented results.**
