@@ -80,6 +80,7 @@ Security findings remain visible. Passing checks describe the configured tests a
 | [12 — Revolut market intelligence and GTM](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study/tree/main/docs/gtm) | UK SME research, competitor comparison, provisional targeting and hypothetical acquisition economics |
 | [GitLab 01 — Secure CI/CD Pipeline Engineering](https://github.com/SkynetAI-Labs/gitlab-secure-cicd-pipeline) | Release-risk API, GitLab security gates, hardened containers and commercial case study · [GitLab repository](https://gitlab.com/SkynetAI-Labs/gitlab-secure-cicd-pipeline) |
 | [GitLab 02 — Competitive Evaluation & Sales Discovery](https://github.com/SkynetAI-Labs/gitlab-secure-cicd-pipeline/tree/main/docs/commercial/lab-02) | Balanced GitLab/GitHub comparison, buyer discovery, objection handling, cost workbook and pilot scorecard · [GitLab lab](https://gitlab.com/SkynetAI-Labs/gitlab-secure-cicd-pipeline/-/tree/main/docs/commercial/lab-02) |
+| [GitLab 03 — Enterprise Buyers & Buying Process](https://github.com/SkynetAI-Labs/gitlab-secure-cicd-pipeline/tree/main/docs/commercial/lab-03) | Buyer-persona hypotheses, stakeholder maps, procurement journey, qualification gaps and interview walkthrough · [GitLab lab](https://gitlab.com/SkynetAI-Labs/gitlab-secure-cicd-pipeline/-/tree/main/docs/commercial/lab-03) |
 
 **Labs 08–12 are successive phases of one repository and share one combined application test suite.** The 231-test total is not a separate result for each phase.
 
@@ -100,6 +101,7 @@ The Revolut work is an independent educational simulation and case study, not af
 [LinkedIn](https://www.linkedin.com/in/adam-b-30126024) · [GitHub projects](https://github.com/SkynetAI-Labs?tab=repositories)
 
 **Commercial experience. Practical technical learning. Documented results.**
+
 
 
 
