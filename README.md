@@ -62,7 +62,7 @@ My learning includes the **Google AI Professional Certificate (October 2026)**, 
 
 Security findings remain visible. Passing checks describe the configured tests at their run date; they do not establish production readiness. Each repository links its dated audit and recommendations.
 
-## All 12 Portfolio Labs
+## Portfolio Labs and Projects
 
 | Lab | Focus |
 |---|---|
@@ -78,6 +78,7 @@ Security findings remain visible. Passing checks describe the configured tests a
 | [10 — Revolut Docker and DevSecOps](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study#lab-3--docker-github-actions-and-devsecops) | Container hardening, dependency checks and automated scanning |
 | [11 — Revolut transaction monitoring](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study#lab-4--fraud-detection-and-transaction-monitoring) | Four explainable rules, isolated alerts, administrator review and atomic integration |
 | [12 — Revolut market intelligence and GTM](https://github.com/SkynetAI-Labs/Revolut-fintech-api-security-case-study/tree/main/docs/gtm) | UK SME research, competitor comparison, provisional targeting and hypothetical acquisition economics |
+| [GitLab 01 — Secure CI/CD Pipeline Engineering](https://github.com/SkynetAI-Labs/gitlab-secure-cicd-pipeline) | Release-risk API, GitLab security gates, hardened containers and commercial case study · [GitLab repository](https://gitlab.com/SkynetAI-Labs/gitlab-secure-cicd-pipeline) |
 
 **Labs 08–12 are successive phases of one repository and share one combined application test suite.** The 231-test total is not a separate result for each phase.
 
@@ -98,4 +99,5 @@ The Revolut work is an independent educational simulation and case study, not af
 [LinkedIn](https://www.linkedin.com/in/adam-b-30126024) · [GitHub projects](https://github.com/SkynetAI-Labs?tab=repositories)
 
 **Commercial experience. Practical technical learning. Documented results.**
+
 
