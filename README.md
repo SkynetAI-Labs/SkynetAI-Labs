@@ -2,7 +2,7 @@
 
 # Adam Baig | SkynetAI-Labs
 
-**Recruitment & Business Development | International Technical Hiring | SaaS, AI & Fintech**
+**Full-Cycle Recruitment | GTM & Commercial Hiring | International Business Development | AI-Fluent**
 
 I combine a background in full-cycle recruitment, executive search, business development and international client management with hands-on technical learning. At **SkynetAI-Labs**, I build practical cybersecurity, cloud and fintech projects to deepen my understanding of the systems, products and technical roles involved.
 
@@ -10,13 +10,38 @@ This portfolio combines hands-on implementation with security assessment, eviden
 
 ## Recruitment and Commercial Experience
 
-My recruitment work spans oil and gas, power, nuclear, renewables, mining and construction, including specialist technical field services and international assignments.
+**Full-cycle recruiter | GTM & commercial hiring | EMEA & international | AI-fluent**
 
-- **Ascent Energy Global — Director, Recruitment & Business Development (2013–2021):** client acquisition and account management, role scoping, sourcing and screening, interview coordination, rate and contract negotiation, onboarding and international mobilisation.
-- **Voyage Energy Group — Vice President & Co-Founder (2012–2013):** built client relationships and delivered specialist field-engineer recruitment through to international deployment.
-- **Earlier recruitment roles:** executive search and specialist hiring at Competentia AS (2011–2012), international energy recruitment at Opus Sterling (2010–2011), and full-cycle construction and energy recruitment at Quest Executive (2002–2010).
+I bring 20+ years of client-facing recruitment and business development, owning searches from intake to close across shifting priorities. I have recruited sales managers, sales engineers, business development, contracts, procurement, operations and IT professionals, alongside directors and C-suite through executive search.
 
-This experience connects hiring-manager requirements, candidate assessment and commercial delivery. My technology portfolio adds practical learning alongside that established recruitment background.
+My sector experience spans oil and gas, power, nuclear, renewables, mining, construction and IT for energy clients. International hiring and mobilisation have covered the UK, Norway, Romania, Libya, Kuwait, India, Malaysia and Australia.
+
+### Selected Recruitment and Business Results
+
+- **Delivery:** filled approximately 75% of the roles I took on, with a typical time-to-fill of 1–2 weeks.
+- **Mobilisation at scale:** mobilised approximately 170 personnel for Aggreko and APR Energy power projects in Libya on tight timelines.
+- **Business growth:** built Ascent Energy Global from a one-person start-up to 11 employees, generating approximately US$100,000 a month in contractor revenue; helped grow Voyage Energy Group from 3 to 17 people.
+- **Investment:** helped secure private equity backing for Voyage Energy Group from Hamilton Bradshaw, including presenting the business face to face to James Caan.
+- **Commercial hiring:** recruited sales managers and sales engineers for Siemens, Dresser Rand and other clients. Two decades of quota-driven outbound selling—around 400 calls and 4+ booked meetings a week—inform how I assess sales and customer-facing talent.
+- **Major projects:** supported recruitment for the approximately US$26 billion Inpex Ichthys LNG project and contributed to the EnQuest Kraken, BG Global Framework and Total Clove wins.
+
+### Career Experience
+
+- **Ascent Energy Global — Director, Recruitment & Business Development (2013–2021):** ran full-cycle commercial, technical and IT searches; partnered with hiring managers at Siemens, GE Power, APR Energy, Dresser Rand, Elliott Turbo, Sulzer, Aggreko and Alstom Power. Built diverse international pipelines through market mapping, passive-candidate headhunting and referrals; coordinated interviews, negotiated rates, contracts, rotations and travel, and supported acceptance, visas and deployment. Managed client relationships and search pipelines in Salesforce and the company CRM.
+- **Voyage Energy Group — Vice President & Co-Founder, Recruitment & Business Development (2012–2013):** co-founded the business, helped secure investment and grow the team, and won Siemens, MAN Turbo, MAN Ferrostaal, Ansaldo, Dresser Rand and Metka through outbound business development. Qualified requirements with senior stakeholders and recruited and deployed specialist engineers internationally.
+- **Competentia AS — Principal Consultant, Recruitment (2011–2012):** executive search and specialist international oil, gas and IT recruitment; mapped competitor organisations and approached passive senior candidates. Supported ENI Goliat, BP Clair Ridge and BP Skarv, with stakeholder qualification and rate/fee negotiation.
+- **Opus Sterling Recruitment Limited — Principal Consultant, Recruitment, Contract (2010–2011):** introduced structure to the energy division and opened and managed accounts with Apache Australia, OMV Petrom, Shell Malaysia, Cairn Energy India and Kuwait Oil Company.
+- **Quest Executive — Principal Consultant, Recruitment (2002–2010):** full-cycle commercial and technical recruitment across construction, energy and IT; built pipelines through cold calling, networking, referrals and client meetings. Developed Jacobs Engineering, Amec, Aker and Areva into repeat-business accounts.
+
+### Recruiting Practice, Tools and AI
+
+My work covers intake and role scoping, sourcing strategy, diverse pipeline building, market mapping, screening, structured interviewing, compensation and offer negotiation, and closing. I partner with hiring managers on candidate quality, salaries/rates and timing, while keeping candidates informed through onboarding and international deployment.
+
+Tools include **Bullhorn ATS, Salesforce, LinkedIn Sales Navigator and Microsoft Office**. My Salesforce Trailhead learning includes **Mountaineer rank and 52 badges**. I use AI for candidate research, market mapping and outreach.
+
+At **SkynetAI-Labs (October 2024–present)**, I build independent technology projects and am designing **PeachBox.**, an AI-assisted recruitment platform for sourcing and candidate matching, currently at the early design stage.
+
+My learning includes the **Google AI Professional Certificate (October 2026)**, **Google Cybersecurity Professional Certificate (September 2026)** and **Google Cloud Digital Leader Training (October 2026)**. **CompTIA Security+ is in progress.** The cloud entry describes training rather than a certification exam result.
 
 ## Start Here
 
@@ -73,3 +98,4 @@ The Revolut work is an independent educational simulation and case study, not af
 [LinkedIn](https://www.linkedin.com/in/adam-b-30126024) · [GitHub projects](https://github.com/SkynetAI-Labs?tab=repositories)
 
 **Commercial experience. Practical technical learning. Documented results.**
+
