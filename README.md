@@ -99,7 +99,7 @@ Technical work covers Python/FastAPI/SQLite, JWT and Argon2id, Docker, GitHub Ac
 
 The Revolut work is an independent educational simulation and case study, not affiliated with or endorsed by Revolut. All banking customers, accounts and transactions are fictional. No interviews, outreach campaigns, provider partnerships or acquired customers are claimed.
 
-[LinkedIn](https://www.linkedin.com/in/adam-b-30126024) · [GitHub projects](https://github.com/SkynetAI-Labs?tab=repositories)
+[LinkedIn](https://www.linkedin.com/in/adambaiguk) · [GitHub projects](https://github.com/SkynetAI-Labs?tab=repositories)
 
 **Commercial experience. Practical technical learning. Documented results.**
 
